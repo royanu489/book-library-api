@@ -1,0 +1,10 @@
+# render.yaml — Render.com deployment config
+services:
+  - type: web
+    name: book-library-api
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true    # Render auto-generates a secure random value
