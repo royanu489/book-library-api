@@ -112,7 +112,7 @@ You can also filter and search:
 
 ## Live demo
 
-Deployed on Render: **https://book-library-api.onrender.com/docs**
+Deployed on Render: **https://book-library-api-gch1.onrender.com/docs**
 
 > Note: The app is on a free plan so it may take 20-30 seconds to load if it hasn't been used recently. After that first load it works normally.
 
